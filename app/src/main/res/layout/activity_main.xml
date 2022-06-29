@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <RadioGroup
+            android:id="@+id/launch_mode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <RadioButton
+                android:id="@+id/btn_single_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Single Top"/>
+
+            <RadioButton
+                android:id="@+id/btn_single_task"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Single Task"/>
+
+            <RadioButton
+                android:id="@+id/btn_single_instance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Single Instance"/>
+
+            <RadioButton
+                android:id="@+id/btn_single_instance_per_task"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Single Instance Per task"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn_go"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:text="Go"
+            android:layout_below="@+id/launch_mode"/>
+
+    </RelativeLayout>
+</layout>

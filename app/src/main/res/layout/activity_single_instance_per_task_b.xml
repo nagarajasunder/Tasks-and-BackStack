@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_launch_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_alignParentStart="true"
+            android:text="Launch A"/>
+
+        <Button
+            android:id="@+id/btn_launch_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_centerHorizontal="true"
+            android:text="Launch B"/>
+
+        <Button
+            android:id="@+id/btn_launch_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_alignParentEnd="true"
+            android:text="Launch C"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Activity B - Single instance per task"
+            android:layout_centerInParent="true"
+            style="@style/TextAppearance.AppCompat.Display1"/>
+
+    </RelativeLayout>
+</layout>
