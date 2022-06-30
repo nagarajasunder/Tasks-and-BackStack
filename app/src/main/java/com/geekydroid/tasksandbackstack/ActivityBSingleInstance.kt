@@ -50,4 +50,9 @@ class ActivityBSingleInstance : AppCompatActivity() {
         super.onNewIntent(intent)
         Log.d(TAG, "onNewIntent: called")
     }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        Log.d(TAG, "onDestroy: called")
+    }
 }

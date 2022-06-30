@@ -7,7 +7,7 @@ import android.util.Log
 import androidx.databinding.DataBindingUtil
 import com.geekydroid.tasksandbackstack.databinding.ActivitySingleTaskBBinding
 
-private const val TAG = "SingleTaskActivityB"
+private const val TAG = "`SingleTaskActivityB`"
 
 
 class SingleTaskActivityB : AppCompatActivity() {
